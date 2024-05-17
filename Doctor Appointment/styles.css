@@ -1,0 +1,34 @@
+/* Text Animation */
+
+@keyframes slide-in-from-left {
+    0% {
+        transform: translateX(-100%);
+        opacity: 0;
+    }
+
+    100% {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
+.slide-in-from-left {
+    animation: slide-in-from-left 2s forwards;
+}
+
+
+@keyframes slide-in-from-bottom {
+    0% {
+        transform: translateY(100%);
+        opacity: 0;
+    }
+
+    100% {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+.slide-in-from-bottom {
+    animation: slide-in-from-bottom 2s forwards;
+}
