@@ -68,6 +68,12 @@ include '../Database/connection.php';
                 height: 30vh;
             }
         }
+
+        .card1,.card2{
+
+            margin-left:auto;
+            margin-right:auto;
+        }
     </style>
 </head>
 
